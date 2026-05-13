@@ -149,27 +149,27 @@ Running semantic search models (PyTorch/ONNX) on mobile devices initially draine
 
 **SILO AI Search on iPhone:** Local-first Semantic Search executing purely on Apple Neural Engine (ANE).
 
-![SILO AI Search on iPhone](assets/Iphone_Silo_Ask_render.png)
+<img src="assets/Iphone_Silo_Ask_render.png" width="800">
 
 ---
 
 ### 💻 Desktop Orchestration (Tauri/React)
 
-**High-Volume Indexing:** Handling infinite scale archives with isolated processing.
-![Desktop Library](assets/Silo_render_library_mac_safe.png)
+**High-Volume Indexing:** Handling infinite scale archives with isolated processing.<br>
+<img src="assets/Silo_render_library_mac_safe.png" width="800">
 
-**Source Management:** Direct mapping of cold-storage SSDs to the proxy layer.
-![Desktop Sources](assets/Silo_render_sources_mac_isometric.png)
+**Source Management:** Direct mapping of cold-storage SSDs to the proxy layer.<br>
+<img src="assets/Silo_render_sources_mac_isometric.png" width="800">
 
 ---
 
 ### 📱 Intelligent Companion (Swift Native)
 
-**Fluid Gallery Experience:** Seamlessly browse hundreds of thousands of proxies with advanced local filtering.
-![iPhone Library](assets/Silo_iPhone_Library_filters_sheet_tabbar.png)
+**Fluid Gallery Experience:** Seamlessly browse hundreds of thousands of proxies with advanced local filtering.<br>
+<img src="assets/Silo_iPhone_Library_filters_sheet_tabbar.png" height="500">
 
-**Zero-Cloud Sync:** Real-time JSONL delta streaming over local Bonjour.
-![iPhone Sync](assets/Silo_iPhone_Sync_mock.png)
+**Zero-Cloud Sync:** Real-time JSONL delta streaming over local Bonjour.<br>
+<img src="assets/Silo_iPhone_Sync_mock.png" height="500">
 
 ---
 
