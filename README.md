@@ -34,6 +34,24 @@ This time covers the **complete multimodal AI pipeline** executing 100% locally:
 
 ---
 
+## 🖼 Showcase
+
+<div align="center">
+  <img src="assets/Iphone_Silo_Ask_render.png" height="500">
+  <br><b>SILO AI Search on iPhone:</b> Local-first Semantic Search executing purely on Apple Neural Engine (ANE).
+</div>
+
+<br>
+
+| 💻 Desktop Orchestration | 📱 Intelligent Companion |
+| :---: | :---: |
+| <img src="assets/Silo_render_library_mac_safe.png" height="350"> | <img src="assets/Silo_iPhone_Library_filters_sheet_tabbar.png" height="350"> |
+| **High-Volume Indexing:** Handling infinite scale archives. | **Fluid Gallery:** Browse hundreds of thousands of proxies. |
+| <img src="assets/Silo_render_sources_mac_isometric.png" height="350"> | <img src="assets/Silo_iPhone_Sync_mock.png" height="350"> |
+| **Source Management:** Direct mapping of cold-storage SSDs. | **Zero-Cloud Sync:** Real-time JSONL delta streaming. |
+
+---
+
 ## 🛠 Core AI Capabilities
 
 ### Visual Intelligence
@@ -62,7 +80,7 @@ To demonstrate the extreme optimization of our visual pipeline on consumer hardw
 ---
 
 ## 🛠 ML Engineering: PyTorch to CoreML
-A core technical achievement of SILO is the **complete porting and optimization of 7+ production-grade AI models** from PyTorch to CoreML. This ensures all intelligence runs locally on the Apple Neural Engine (ANE) with maximum power efficiency and zero data leakage.
+A core technical achievement of SILO is the **complete porting and optimization of 5+ production-grade AI models** from PyTorch to CoreML. This ensures all intelligence runs locally on the Apple Neural Engine (ANE) with maximum power efficiency and zero data leakage.
 
 *   **Optimized Models:** Ported complex architectures for Visual-Language understanding, Object Detection, OCR, Audio Source Separation, and Transcription.
 *   **Performance:** Achieved near-native inference speeds by utilizing 16-bit quantization and ANE-optimized layers.
@@ -142,34 +160,6 @@ The initial prototype was built using **Flutter and Dart**. However, the sheer v
 Running semantic search models (PyTorch/ONNX) on mobile devices initially drained battery and introduced unacceptable latency.
 *   *The Pivot:* Re-engineered the machine learning pipeline to compile and run models natively via Apple's **CoreML** and **Accelerate (vDSP)** framework. 
 *   *The Result:* Search latency dropped from seconds to <150ms, processing directly on the Neural Engine (ANE) with near-zero thermal impact.
-
----
-
-## 🖼 Showcase
-
-**SILO AI Search on iPhone:** Local-first Semantic Search executing purely on Apple Neural Engine (ANE).
-
-<img src="assets/Iphone_Silo_Ask_render.png" height="500">
-
----
-
-### 💻 Desktop Orchestration (Tauri/React)
-
-**High-Volume Indexing:** Handling infinite scale archives with isolated processing.<br>
-<img src="assets/Silo_render_library_mac_safe.png" height="500">
-
-**Source Management:** Direct mapping of cold-storage SSDs to the proxy layer.<br>
-<img src="assets/Silo_render_sources_mac_isometric.png" height="500">
-
----
-
-### 📱 Intelligent Companion (Swift Native)
-
-**Fluid Gallery Experience:** Seamlessly browse hundreds of thousands of proxies with advanced local filtering.<br>
-<img src="assets/Silo_iPhone_Library_filters_sheet_tabbar.png" height="500">
-
-**Zero-Cloud Sync:** Real-time JSONL delta streaming over local Bonjour.<br>
-<img src="assets/Silo_iPhone_Sync_mock.png" height="500">
 
 ---
 
