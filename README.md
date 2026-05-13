@@ -149,17 +149,17 @@ Running semantic search models (PyTorch/ONNX) on mobile devices initially draine
 
 **SILO AI Search on iPhone:** Local-first Semantic Search executing purely on Apple Neural Engine (ANE).
 
-<img src="assets/Iphone_Silo_Ask_render.png" width="800">
+<img src="assets/Iphone_Silo_Ask_render.png" height="500">
 
 ---
 
 ### 💻 Desktop Orchestration (Tauri/React)
 
 **High-Volume Indexing:** Handling infinite scale archives with isolated processing.<br>
-<img src="assets/Silo_render_library_mac_safe.png" width="800">
+<img src="assets/Silo_render_library_mac_safe.png" height="500">
 
 **Source Management:** Direct mapping of cold-storage SSDs to the proxy layer.<br>
-<img src="assets/Silo_render_sources_mac_isometric.png" width="800">
+<img src="assets/Silo_render_sources_mac_isometric.png" height="500">
 
 ---
 
