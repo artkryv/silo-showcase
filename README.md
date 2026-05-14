@@ -4,6 +4,9 @@
 
 SILO is a professional-grade media management system designed to keep your original data under your control. It combines a high-speed Rust-based desktop orchestrator with a native iOS companion app, featuring hardware-accelerated semantic search and a custom-built, private-by-design AI pipeline.
 
+**🔗 Website:** [silo.artemkryv.com](https://silo.artemkryv.com)  
+**🚦 Status:** Advanced Prototype / Closed Beta (Preparing for TestFlight)
+
 ---
 
 ## 🎯 The Vision: Not a dead backup.
