@@ -18,7 +18,7 @@ iCloud is alive, but SSDs are cheap. SILO connects the missing piece. Current so
 We stress-test our backend with complex, real-world libraries on standard consumer hardware, proving that enterprise-grade AI doesn't require a server rack.
 
 **Test Corpus:** 725 local media files (including 50 heavy video files).
-**Total Time:** **~5 minutes** on a fanless MacBook Air M3.
+**Total Time:** **~3 minutes** on a fanless MacBook Air M3, that underclocks under load.
 
 This time covers the **complete multimodal AI pipeline** executing 100% locally:
 *   Multi-format metadata extraction & indexing into LanceDB.
@@ -73,7 +73,7 @@ To demonstrate the extreme optimization of our visual pipeline on consumer hardw
 | Pipeline Stage | Workload | Time Spent | Compute Distribution |
 | :--- | :--- | :--- | :--- |
 | **Visual Core** | Photos + Video Proxies, Embeddings, Object Detection, OCR | **~1m 30s** | `███░░░░░░░░` (~30%) |
-| **Audio AI** | Video VAD, Noise Isolation, Whisper Transcription | **~3m 30s** | `████████░░░` (~70%) |
+| **Audio AI** | Video VAD, Noise Isolation, Transcription | **~3m 30s** | `████████░░░` (~70%) |
 
 *This proves that the core intelligence (semantic search, OCR, object detection) is incredibly lightweight and fast. The heavy lifting is intelligently isolated to video audio processing, preventing the UI from blocking during massive imports.*
 
