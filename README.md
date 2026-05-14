@@ -55,7 +55,7 @@ This time covers the **complete multimodal AI pipeline** executing 100% locally:
 
 ---
 
-## 🛠 Core AI Capabilities
+## 🛠 Core Capabilities
 
 ### Visual Intelligence
 *   **Semantic Understanding:** Multimodal indexing allows for hyper-specific natural language queries. 
@@ -67,6 +67,11 @@ This time covers the **complete multimodal AI pipeline** executing 100% locally:
 *   **Speech Transcription:** Automated voice-to-text conversion for videos, making speech searchable.
 *   **Audio Source Separation:** Advanced voice isolation and noise reduction to clean up video audio tracks.
 *   **Video Proxies:** Real-time generation of lightweight previews for instant scrubbing of large 4K archives.
+
+### Data Engineering & Synchronization
+*   **Zero-Cloud Database Sync:** Completely offline, bidirectional alignment of two independent databases (Mac and iPhone) using local mDNS discovery.
+*   **Cryptographic Hashing:** Advanced hashing of raw media assets ensuring perfect deduplication, instant delta-comparisons, and robust state tracking across devices.
+*   **Resumable Transfers:** Idempotent JSONL chunking guarantees that massive library transfers can pause and resume seamlessly across unstable local Wi-Fi drops.
 
 ---
 
