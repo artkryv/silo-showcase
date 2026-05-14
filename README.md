@@ -76,7 +76,7 @@ This time covers the **complete multimodal AI pipeline** executing 100% locally:
 ---
 
 ## 📊 Compute Time Distribution
-To demonstrate the extreme optimization of our visual pipeline on consumer hardware (M3 Air), here is the breakdown of where the ~5 minutes of compute time is actually spent across the 725 files (including 50 videos).
+To demonstrate the extreme optimization of our visual pipeline on consumer hardware (M3 Air), here is the breakdown of where the ~3 minutes of compute time is actually spent across the 725 files (including 50 videos).
 
 | Pipeline Stage | Workload | Time Spent | Compute Distribution |
 | :--- | :--- | :--- | :--- |
